@@ -16,3 +16,48 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.btn{
+      justify-content: center;
+      display: flex;
+      gap: 40px;
+}
+.btn-1 {
+  background: #208234;
+    font-family: "Roboto", sans-serif;
+    color:  #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 16px 32px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+  }
+.btn-2 {
+  background: #208234;
+  font-family: "Roboto", sans-serif;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 16px 32px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+}
+.btn-1:hover,
+.btn-1:focus {
+  background-color: #1d02cb;
+}
+
+.btn-2:hover,
+.btn-2:focus {
+  background-color: #cb0202;
+}
